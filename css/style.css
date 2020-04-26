@@ -239,9 +239,7 @@ span.hero__icon {
    text-align: center;
    height: 63px;
 }
-.ticket__content--text:last-child {
-   border: 0;
-}
+
 .ticket__content--text:before {
    content: "";
    opacity: 0.4;
@@ -252,7 +250,9 @@ span.hero__icon {
    transform: translateX(-50%);
    top: 100%;
 }
-
+.ticket__content--last:before {
+   border: 0;
+}
 .ticket__btn {
    width: 170px;
    height: 47px;
